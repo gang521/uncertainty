@@ -1,3 +1,4 @@
+#用于计算间接测量量的不确定度（感觉不大好用是真的）
 import math
 
 # 获取直接测量量的个数
@@ -18,7 +19,7 @@ for i in range(num_direct_measurements):
     direct_measurements.append(measurements)
 
     # 计算直接测量量的不确定度
-    measurement_range = float(input("请输入{}的量程：".format(measurement_name)))
+    measurement_range = float(input("请输入{}的精确度：".format(measurement_name)))
     b_uncertainty = measurement_range / math.sqrt(3)
     direct_measurement_uncertainties.append(b_uncertainty)
 

@@ -1,7 +1,7 @@
 import math
 
 # 获取仪器量程
-range_input = input("请输入仪器的量程：")
+range_input = input("请输入仪器的精确度：")
 range_value = float(range_input)
 
 # 计算仪器不确定度
